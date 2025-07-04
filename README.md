@@ -12,12 +12,12 @@ SignSnap is a simple and lightweight React application that enables users to cre
 🚀 Tech Stack
 React: For building a responsive and interactive user interface
 HTML5 Canvas API: Handles the signature drawing functionality
-
 JavaScript & CSS: For app logic and styling
+
 🏠 Home UI of SignSnap
 ![Screenshot 2025-07-05 024919](https://github.com/user-attachments/assets/61778983-59cb-4572-ad30-6f80f6f0d8f0)
 
 
 📥 Downloaded PNG Format Example
-![signature](https://github.com/user-attachment![Screenshot 2025-07-05 024919](https://github.com/user-attachments/assets/8e011a33-0438-4b32-9b52-f3b7f9e4cd2b)
+![signature](https://github.com/user-attachments/assets/005b7d1a-765d-41db-88f2-a0ac4ab99092)
 
