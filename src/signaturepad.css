@@ -1,0 +1,112 @@
+/* General container styling */
+.signature {
+    width: 100%;
+    max-width: 550px;
+    margin: 32px auto;
+    padding: 6vw 4vw;
+    background: linear-gradient(120deg, #f9f9f9 60%, #e0f7fa 100%);
+    border-radius: 18px;
+    box-shadow: 0 8px 32px rgba(0, 121, 107, 0.10), 0 1.5px 6px rgba(0,0,0,0.07);
+    font-family: 'Segoe UI', Arial, sans-serif;
+    text-align: center;
+    transition: box-shadow 0.3s;
+}
+
+.signature:hover {
+    box-shadow: 0 12px 36px rgba(0, 121, 107, 0.18), 0 2px 8px rgba(0,0,0,0.10);
+}
+
+/* Title styling */
+.signature h2 {
+    font-size: 2rem;
+    color: #00796b;
+    margin-bottom: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+/* Canvas styling */
+.drawing-canvas {
+    width: 100% !important;
+    max-width: 500px;
+    min-height: 180px;
+    height: 40vw;
+    max-height: 260px;
+    border: 2.5px dashed #00796b;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 2px 12px rgba(0, 121, 107, 0.08);
+    margin-bottom: 18px;
+    transition: box-shadow 0.3s;
+}
+
+.drawing-canvas:focus {
+    box-shadow: 0 4px 16px rgba(0, 121, 107, 0.15);
+    outline: none;
+}
+
+/* Button styling */
+.signature button {
+    background: linear-gradient(90deg, #00796b 60%, #00bfae 100%);
+    color: #fff;
+    border: none;
+    padding: 12px 28px;
+    margin: 12px 8px;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    box-shadow: 0 2px 8px rgba(0, 121, 107, 0.10);
+    transition: background 0.3s, transform 0.2s, box-shadow 0.3s;
+}
+
+.signature button:hover {
+    background: linear-gradient(90deg, #004d40 60%, #009688 100%);
+    transform: translateY(-2px) scale(1.04);
+    box-shadow: 0 4px 16px rgba(0, 121, 107, 0.18);
+}
+
+.signature button:active {
+    background: linear-gradient(90deg, #00332c 60%, #00796b 100%);
+    transform: translateY(0) scale(0.98);
+}
+
+/* Responsive styling */
+@media (max-width: 700px) {
+  .signature {
+    padding: 5vw 2vw;
+    border-radius: 12px;
+  }
+  .drawing-canvas {
+    min-height: 120px;
+    max-width: 98vw;
+    height: 32vw;
+    border-radius: 8px;
+  }
+  .signature h2 {
+    font-size: 1.3rem;
+  }
+  .signature button {
+    font-size: 0.95rem;
+    padding: 10px 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .signature {
+    padding: 3vw 1vw;
+    border-radius: 8px;
+  }
+  .drawing-canvas {
+    min-height: 80px;
+    height: 24vw;
+    border-radius: 6px;
+  }
+  .signature h2 {
+    font-size: 1.1rem;
+  }
+  .signature button {
+    font-size: 0.85rem;
+    padding: 8px 10px;
+  }
+}

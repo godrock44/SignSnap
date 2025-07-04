@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(120deg, #e0f7fa 0%, #fff 100%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background 0.5s;
+}
+
+code {
+  font-family: 'Fira Mono', 'Consolas', 'Menlo', 'Monaco', 'Courier New', monospace;
+  background: #f3f3f3;
+  padding: 2px 6px;
+  border-radius: 4px;
+  color: #00796b;
+  font-size: 1.05em;
+}
